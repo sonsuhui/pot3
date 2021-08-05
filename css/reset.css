@@ -1,0 +1,51 @@
+@charset "uft-8";
+
+html, body, div, ul, li, a, header, nav, section, img, span, h1, h2, h3, p, footer, form, input, i, button, strong, iframe{
+    margin: 0;
+    padding: 0;
+}
+
+ul{list-style-type: none;}
+a{text-decoration: none; color: #222;}
+iframe,img{border: none;}
+
+
+body{
+  font-size: 16px;
+  color: #222;
+  font-family: 'Nanum Gothic','나눔고딕',sans-serif;
+}
+
+input{
+  font-size: 12px;
+}
+
+a:link,
+a:visited
+{text-decoration: none;
+color: #222;}
+
+a:hover,
+a:active,
+a:focus{
+    text-decoration: underline;
+    color: #222;
+}
+
+select, input, img{
+  vertical-align: middle;
+}
+
+address,em{
+  font-style: normal;
+}
+input,
+img{
+  vertical-align: middle;
+}
+
+.clearfix{
+  content: '';
+  display: block;
+  clear: both;
+}
